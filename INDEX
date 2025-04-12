@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sylvanus Ochieng Otieno - CV</title>
+  <style>
+    /* Global Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background-color: #f4f4f4;
+      color: #333;  /* Ensures the text is visible */
+    }
+
+    .cv-container {
+      max-width: 900px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 20px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    header {
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+      color: #1a73e8; /* Ensures the heading is visible and blue */
+    }
+
+    h2 {
+      font-size: 1.8em;
+      margin-top: 20px;
+      color: #2c3e50; /* Ensures the heading is visible and dark blue */
+    }
+
+    p, ul {
+      font-size: 1em;
+      color: #333;
+    }
+
+    .picture-section img {
+      display: block;
+      margin: 0 auto;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+    }
+
+    /* Page Break Styling */
+    .page {
+      page-break-before: always;
+      page-break-after: always;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+    /* Sections with page breaks */
+    section {
+      margin: 20px 0;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.85em;
+      color: #888;
+      margin-top: 30px;
+    }
+
+    a {
+      color: #1a73e8;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Page 1 Styles */
+    .page-one {
+      background-color: #eaf0f4;
+    }
+
+    /* Page 2 Styles */
+    .page-two {
+      background-color: #f4f4f4;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- CV Container -->
+  <div class="cv-container">
+    <!-- Page 1 -->
+    <div class="page page-one">
+      <header>
+        <h1>Sylvanus Ochieng Otieno</h1>
+        <p>Data Analyst | <a href="mailto:sylvanusotieno1@gmail.com">sylvanusotieno1@gmail.com</a></p>
+        <p><a href="tel:+254799997183">+254 7999 97183</a> | Nairobi, Kenya</p>
+      </header>
+
+      <section class="picture-section">
+        <h2>Profile Picture</h2>
+        <img src="your-photo.jpg" alt="Sylvanus Ochieng Otieno" />
+      </section>
+
+      <section>
+        <h2>Professional Summary</h2>
+        <p>Passionate and detail-oriented data analyst ready to learn data visualization, machine learning, and data-driven decision-making. Skilled in Python, SQL, Power BI, and Excel.</p>
+      </section>
+
+      <section>
+        <h2>Skills</h2>
+        <ul>
+          <li>Python, HTML, CSS, NumPy, Matplotlib</li>
+          <li>SQL, Power BI, Excel, R Programming</li>
+          <li>Data Cleaning & Visualization</li>
+        </ul>
+      </section>
+    </div>
+
+    <!-- Page 2 -->
+    <div class="page page-two">
+      <section>
+        <h2>Education</h2>
+        <h3>Bachelor of Science in Mathematics and Computer Science | Statistics Option</h3>
+        <p>Kirinyaga University of Science and Technology | 2021 – Present</p>
+      </section>
+
+      <section>
+        <h2>Leadership & Positions Held</h2>
+        <ul>
+          <li><strong>Appeals Committee Member and Commissioner</strong> – Independent Electoral and Boundaries Commission, Kirinyaga University (2025 – 2026)</li>
+          <li><strong>Chairperson</strong> – UNESCO Club, Kirinyaga University (2024 – 2025)</li>
+          <li><strong>General Manager</strong> – UNESCO Club, Kirinyaga University (2023 – 2024)</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Projects</h2>
+        <ul>
+          <li><strong>Data Visualization Dashboard:</strong> Interactive dashboard built using Pandas and Power BI.</li>
+          <li><strong>Customer Churn Model:</strong> ML model using Scikit-learn to predict customer attrition.</li>
+          <li><strong>Web Scraper:</strong> Automated tool to gather market trends using Selenium and BeautifulSoup.</li>
+        </ul>
+      </section>
+    </div>
+
+    <footer>
+      <p>&copy; 2025 Sylvanus Ochieng</p>
+    </footer>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,78 @@
+/* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* CV container styling */
+.cv-container {
+  width: 90%;
+  max-width: 800px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  padding: 30px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+/* Heading styles */
+h1, h2, h3 {
+  color: #1a73e8;
+}
+
+/* Profile picture styling */
+.picture-section img {
+  display: block;
+  margin: 0 auto 15px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+/* Section base styling */
+section {
+  padding: 15px 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* Unique background colors per section */
+.picture-section { background-color: #e3f2fd; }
+.summary        { background-color: #e1f5fe; }
+.skills         { background-color: #f1f8e9; }
+.experience     { background-color: #fff9c4; }
+.education      { background-color: #fce4ec; }
+.leadership     { background-color: #ede7f6; }
+.projects       { background-color: #e0f7fa; }
+
+/* List styling */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+ul li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+/* Link styling */
+a {
+  color: #1a73e8;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer styling */
+footer {
+  font-size: 0.85em;
+  color: #888;
+  margin-top: 30px;
+}
