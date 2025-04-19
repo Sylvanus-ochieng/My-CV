@@ -1,137 +1,227 @@
-/* Global Reset */
+/* General Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  
-  body {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f9f9f9;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
     color: #333;
+    background-color: #f4f4f4;
     padding: 20px;
-  }
-  
-  /* Container */
-  .cv-container {
-    max-width: 700px;
-    margin: 0 auto;
-    border-radius: 15px;
-    overflow: hidden;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    background-color: white;
-  }
-  
-  /* Section Styles */
-  .section {
+}
+
+/* Container Styling */
+.cv-container {
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Shared Section Styling */
+section {
+    margin: 20px 0;
     padding: 20px;
-    text-align: center;
-    border-bottom: 1px solid #eaeaea;
     border-radius: 8px;
-    margin: 10px 0;
-  }
-  
-  /* Section Backgrounds - all unique */
-  .header {
-    background-color: #bbdefb; /* soft blue */
-  }
-  
-  .profile-picture {
-    background-color: #d9efff; /* light cyan-blue */
-  }
-  
-  .summary {
-    background-color: #f0f4c3; /* pale lime */
-  }
-  
-  .skills {
-    background-color: #f1f8e9; /* light green */
-  }
-  
-  .experience {
-    background-color: #ffe0b2; /* soft orange */
-  }
-  
-  .education {
-    background-color: #fce4ec; /* light pink */
-  }
-  
-  .leadership {
-    background-color: #ede7f6; /* lavender */
-  }
-  
-  .projects {
-    background-color: #e0f7fa; /* pale blue */
-  }
-  
-  .certifications {
-    background-color: #fff3e0; /* peach */
-  }
-  
-  .languages {
-    background-color: #f3e5f5; /* soft purple */
-  }
-  
-  .hobbies {
-    background-color: #e8f5e9; /* minty green */
-  }
-  
-  .references {
-    background-color: #edeff2; /* light steel */
-  }
-  
-  .footer {
-    background-color: #f5f5f5; /* light gray */
-    font-size: 0.9rem;
-  }
-  
-  /* Profile Picture */
-  .profile-picture img {
-    width: 100px;
-    height: 100px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Section */
+.section.header {
+    background-color: #1abc9c;
+    color: #fff;
+    text-align: center;
+}
+.section.header h1 {
+    margin-bottom: 15px;
+}
+
+/* Profile Picture */
+.section.profile-picture {
+    background-color: #ecf0f1;
+    text-align: center;
+}
+.section.profile-picture img {
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     object-fit: cover;
-    margin-top: 10px;
-    border: 3px solid #ffffff;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
-  }
-  
-  /* Headings */
-  h1 {
-    font-size: 24px;
-    margin-bottom: 5px;
-    color: #0d47a1;
-  }
-  
-  h2 {
-    font-size: 18px;
-    color: #0d47a1;
-    margin-bottom: 10px;
-  }
-  
-  /* Lists */
-  ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  ul li {
-    margin-bottom: 5px;
-  }
-  
-  /* Links */
-  a {
-    color: #1976d2;
+    border: 4px solid #1abc9c;
+}
+
+/* Summary Section */
+.section.summary {
+    background-color: #fdf2e9;
+}
+.section.summary h2 {
+    color: #d35400;
+}
+
+/* Skills Section */
+.section.skills {
+    background-color: #e8f8f5;
+}
+.section.skills h2 {
+    color: #16a085;
+}
+
+/* Experience Section */
+.section.experience {
+    background-color: #fef9e7;
+}
+.section.experience h2 {
+    color: #f39c12;
+}
+
+/* Education Section */
+.section.education {
+    background-color: #ebf5fb;
+}
+.section.education h2 {
+    color: #2980b9;
+}
+
+/* Leadership Section */
+.section.leadership {
+    background-color: #fceaea;
+}
+.section.leadership h2 {
+    color: #c0392b;
+}
+
+/* Projects Section */
+.section.projects {
+    background-color: #eaf2f8;
+}
+.section.projects h2 {
+    color: #5dade2;
+}
+
+/* Certifications Section */
+.section.certifications {
+    background-color: #f9ebea;
+}
+.section.certifications h2 {
+    color: #8e44ad;
+}
+
+/* Languages Section */
+.section.languages {
+    background-color: #e8f6f3;
+}
+.section.languages h2 {
+    color: #1abc9c;
+}
+
+/* Hobbies Section */
+.section.hobbies {
+    background-color: #fdfefe;
+}
+.section.hobbies h2 {
+    color: #7f8c8d;
+}
+
+/* References Section */
+.section.references {
+    background-color: #f4f6f7;
+}
+.section.references h2 {
+    color: #2c3e50;
+}
+
+/* Lists */
+ul {
+    padding-left: 20px;
+}
+ul li {
+    margin-bottom: 8px;
+}
+
+/* Links */
+a {
+    color: #2980b9;
     text-decoration: none;
-  }
-  
-  a:hover {
+}
+a:hover {
     text-decoration: underline;
-  }
-  
-  /* Paragraph spacing */
-  p {
-    margin-bottom: 10px;
-    line-height: 1.5;
-  }
-  
+}
+
+/* Footer */
+footer.section.footer {
+    background: #34495e;
+    color: #fff;
+    text-align: center;
+    margin-top: 40px;
+    padding: 15px;
+    border-radius: 0 0 10px 10px;
+}
+/* Container Styling */
+.cv-container {
+    max-width: 900px;
+    margin: auto;
+    text-align: center; /* Center all text inside */
+}
+
+/* Header */
+.section.header h1 {
+    text-align: center;
+}
+
+/* Headings in all sections */
+section h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Lists */
+ul {
+    list-style-position: inside;
+    padding-left: 0;
+    text-align: center;
+}
+
+/* Paragraphs */
+section p {
+    text-align: center;
+}
+
+/* Profile Picture Centered */
+.section.profile-picture {
+    background-color: #ecf0f1;
+}
+.section.profile-picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #1abc9c;
+    display: block;
+    margin: 0 auto; /* center the image */
+}
+/* References Section */
+.section.references {
+    background-color: #f0f3f4; /* Light gray background */
+}
+.section.references h2 {
+    color: #2c3e50;
+}
+
+/* Hobbies Section */
+.section.hobbies {
+    background-color: #d5dbdb; /* Soft light gray for a neutral background */
+}
+.section.hobbies h2 {
+    color: #7f8c8d;
+}
+
+/* Footer */
+footer.section.footer {
+    background: #2d3436; /* Dark gray background for footer */
+    color: #fff;
+    text-align: center;
+    margin-top: 40px;
+    padding: 15px;
+    border-radius: 0 0 10px 10px;
+}
